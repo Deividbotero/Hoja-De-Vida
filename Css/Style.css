@@ -1,0 +1,89 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    width: 30%;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.details {
+    width: 65%;
+}
+
+.details h2 {
+    border-bottom: 2px solid #333;
+    color: #333;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details li {
+    margin-bottom: 10px;
+}
+
+.details li strong {
+    font-weight: bold;
+}
+
+/* Estilo de color negro y dorado */
+.profile h1, .profile p {
+    color: #ffd700; /* dorado */
+}
+
+.details h2 {
+    color: #ffd700; /* dorado */
+}
+
+.details li strong {
+    color: #ffd700; /* dorado */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+  }
+.contacto img {
+    width: 30px; 
+    margin-right: 10px;
+}
+.Univer {
+    display: flex;
+    align-items: center;
+  }
+.Univer img {
+    width: 60px; 
+    margin-right: 10px;
+}
+.Insta {
+    display: flex;
+    align-items: center;
+  }
+.Insta img {
+    width: 30px; 
+    margin-right: 10px;
+}
